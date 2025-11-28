@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Outfit:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: "elegant";
+    src: url('assets/fuentes/elegant.ttf');
+    font-weight: bold;
+}
+
+@theme {
+    --font-elegant: "elegant";
+    --text-elegant--letter-spacing: 0.1rem;
+}

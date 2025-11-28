@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>serial experiments lain - Aventura</title>
+    <link href="./output.css" rel="stylesheet" />
+</head>
+
+<body class="bg-black text-white font-mono selection:bg-white selection:text-black">
+
+    <header class="fixed top-0 left-0 w-full z-50 bg-black border-b border-white h-16">
+        <nav class="flex justify-between items-stretch h-full w-full">
+            <a href="index.html"
+                class="font-elegant text-2xl tracking-tighter hover:italic transition-all flex items-center px-6 md:px-12 border-r border-white">
+                TP FINAL
+            </a>
+            <ul class="flex items-center h-full text-sm uppercase tracking-widest list-none m-0">
+                <li class="h-full border-l border-white bg-white text-black">
+                    <a href="aventura.html" class="h-full flex items-center px-6 md:px-8 transition-colors">Aventura</a>
+                </li>
+                <li class="h-full border-l border-white">
+                    <a href="diagrama.html"
+                        class="h-full flex items-center px-6 md:px-8 hover:bg-white hover:text-black transition-colors">Diagrama</a>
+                </li>
+                <li class="h-full border-l border-white">
+                    <a href="index.html#equipo"
+                        class="h-full flex items-center px-6 md:px-8 hover:bg-white hover:text-black transition-colors">Equipo</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flex flex-col w-full pt-16">
+
+        <section class="min-h-screen border-b border-white grid grid-cols-1 lg:grid-cols-2">
+
+            <div
+                class="bg-black border-b lg:border-b-0 lg:border-r border-white flex flex-col justify-center items-center p-12 relative overflow-hidden">
+                <img src="assets/imagenes/SOLEDAD.png" alt="titulo aventura" class="w-full h-auto object-contain
+            max-w-[85vw] sm:max-w-[560px] md:max-w-[680px] lg:max-w-[820px]
+            drop-shadow-[0_0_15px_rgba(255,255,255,0.2)]" />
+            </div>
+
+            <div class="bg-neutral-900 flex flex-col justify-center items-center p-8 relative w-full h-full">
+
+                <div class="border border-white p-2 bg-black shadow-[10px_10px_0px_0px_rgba(255,255,255,0.2)]">
+                    <iframe src="p5/index.html" frameborder="0" width="700" height="540" class="max-w-full max-h-[70vh]"
+                        scrolling="no">
+                    </iframe>
+                </div>
+
+                <div class="mt-4 flex items-center gap-2">
+
+                </div>
+        </section>
+
+        <section class="min-h-[100svh] border-b border-white grid grid-cols-1 md:grid-cols-12">
+            <div class="md:col-start-3 md:col-end-11 relative flex flex-col items-center justify-center gap-16">
+                <h2 class="font-elegant text-3xl md:text-4xl font-bold text-center tracking-tighter leading-none z-10">
+                    Materialización del conflicto digital
+                </h2>
+
+                <img src="assets/imagenes/textoaventura.png" alt="texto aventura"
+                    class="z-10 block w-full max-w-3xl h-auto object-contain" />
+
+                <!-- Más a los laterales -->
+                <img src="assets/imagenes/rayoizquierda.png" alt="rayo izquierda"
+                    class="pointer-events-none absolute inset-y-0 left-[-25%] md:left-[-25%] h-full w-auto object-contain grayscale z-20" />
+
+                <img src="assets/imagenes/rayoderecha.png" alt="rayo derecha"
+                    class="pointer-events-none absolute inset-y-0 right-[-25%] md:right-[-25%] h-full w-auto object-contain grayscale z-20" />
+            </div>
+        </section>
+    </main>
+
+    <footer
+        class="bg-black text-white py-12 px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-8 text-xs font-mono uppercase tracking-widest">
+        <div class="md:col-span-2">
+            <p class="font-bold text-lg mb-2">Zoe Orellano</p>
+            <p class="opacity-50">119104/0</p>
+        </div>
+        <div>
+            <p class="mb-2">Facultad de Artes</p>
+            <p class="opacity-50">DEPARTAMENTO DE DISEÑO MULTIMEDIAL</p>
+        </div>
+        <div class="text-right">
+            <a href="index.html" class="hover:underline">Volver al inicio ↑</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
