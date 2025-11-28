@@ -27,7 +27,7 @@ let titulos = ["Present day...\npresent time...", "", "", "EL MENSAJE", "CARTA D
 
 function preload() {
     textos = loadStrings("assets/textoz.txt");
-    fuente = loadFont("assets/coderscrux.ttf");
+    fuente = loadFont("assets/Coderscrux.ttf");
     intro = loadSound("assets/sonido/intro.mp3");
     ruiditoz = loadSound("assets/sonido/ruiditoz.mp3");
     cancionCreditos = loadSound("assets/sonido/megalomaniac.mp3");
