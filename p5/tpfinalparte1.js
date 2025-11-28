@@ -79,7 +79,9 @@ function draw() {
         image(imagen[pantallaActual], 0, 0, width, height);
     }
 
-    textFont(fuente);
+    if (fuente) {
+        textFont(fuente);
+    }
     textSize(16);
     fill(0);
 
@@ -221,7 +223,9 @@ function dibujarBoton(x, y, textos) {
     let paddingX = 10;
     let paddingY = 5;
 
-    textFont(fuente);
+    if (fuente) {
+        textFont(fuente);
+    }
     textSize(16);
 
     let tw = textWidth(textos);
